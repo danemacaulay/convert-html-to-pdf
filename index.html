@@ -4,18 +4,24 @@
     <title>test</title>
 </head>
 <body>
+    <h1>Lorem...</h1>
+
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    <div id="cookie"></div>
+
+    <h1>Cookie contents</h1>
+    <div id="cookie-jar"></div>
 </body>
 <script type="text/javascript">
-    var cookieNode = document.getElementById('cookie');
+    var cookieNode = document.getElementById('cookie-jar');
     cookieNode.textContent = document.cookie;
+    // mock some async action
     setTimeout(function() {
+        // set this variable so that chrome knows the page is ready to be converted
         window.pageFullyLoaded = true;
     }, 1000);
 </script>

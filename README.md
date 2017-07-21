@@ -1,8 +1,8 @@
-# Convert HTML to PDF
+# Convert HTML to PDF Example
 
-this will convert the included `index.html` into a pdf called `page.pdf`. the included index.html will read in the browsers cookie and write it to the page in order to demonstrate chrome's ability to set cookies
+This will convert the included `index.html` into a pdf called `page.pdf`. The included index.html will read in the browsers cookie and write it to the page in order to demonstrate chrome's ability to set cookies.
 
-the pdf will only be created with the global variable `pageFullyLoaded` is set to true
+The pdf will only be created when the global variable `pageFullyLoaded` is set to true.
 
 # Run
 
