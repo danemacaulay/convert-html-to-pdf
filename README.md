@@ -13,6 +13,7 @@ npm start
 
 # Resources
 
+- https://developers.google.com/web/updates/2017/04/headless-chrome
 - https://chromedevtools.github.io/devtools-protocol/
 - https://github.com/cyrus-and/chrome-remote-interface
 - https://github.com/GoogleChrome/lighthouse/tree/master/chrome-launcher
